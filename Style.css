@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgba(71, 63, 105, 0.539);
+    /* background-color: black; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(77, 22, 195);
+}
+
+nav .left{
+    font-size: 1.4rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-size: 1.04rem;
+    color: rgb(175, 249, 3);
+}
+
+.first_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+}
+.first_section > div{
+   width: 30%;  
+}  
+/* .left_section{
+    width: 3rem;
+} */
+
+.left_section .btn{
+padding: 12px;
+background: white;
+color: black;
+font-size: 20px;
+border-radius: 6px;
+cursor: pointer;
+border: 2px solid white
+
+}
+
+
+
+.first_section .left_section{
+    /* background-color: cadetblue; */
+    font-size: 2rem;
+}
+.first_section .right_section img {
+width : 80%;
+margin : 50px 0;
+/* background-color: brown; */
+}
+
+#element{
+    color: rgb(193, 13, 13);
+}
+
+.second_section{
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+main hr{
+border: 0;
+background: rgba(0, 238, 255, 0.437);
+height: 1.2px;
+margin: 40px 84px;
+}
+
+.second_section h1{
+    font-size: 1.9rem;
+    
+}
+
+.second_section .box{
+    background: white;
+    width: 85vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.second_section .vertical
+{
+    height: 32px;
+    width: 4px;
+    background-color: white;
+    margin: 0px 140px;
+    
+}
+.footer ul{
+list-style: none;
+}
+
+.footer > div{
+width: 123px;
+}
+
+
+
+
+

@@ -1,0 +1,42 @@
+.name {
+  color: rgb(145, 45, 45);
+}
+.text-grey {
+  color: grey;
+}
+.image-top {
+  width: 26px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.vertical-desc {
+  position: relative;
+  color: rgb(170, 15, 15);
+  width: 150px;
+  font-size: 20px;
+  text-decoration-style: none;
+}
+
+
+.footer{
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 23px 122px;
+    height: 33vh;
+    justify-content: space-evenly ;
+}
+footer .footer-rights{
+  text-align: center;
+  color: rgb(4, 4, 4);
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
